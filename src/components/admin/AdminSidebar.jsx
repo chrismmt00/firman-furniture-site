@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { X } from "lucide-react";
 import { useAuth } from "@/lib/mock-auth";
 import { cn } from "@/lib/cn";
 
@@ -54,59 +55,111 @@ const NAV = [
   },
 ];
 
-export default function AdminSidebar() {
+function NavBody({ role, pathname, onItemClick }) {
+  return (
+    <nav className="px-3 py-5">
+      {NAV.map((group) => {
+        const items = group.items.filter((i) => i.roles.includes(role));
+        if (items.length === 0) return null;
+        return (
+          <div key={group.heading} className="mb-6">
+            <span className="px-3 text-[10px] tracking-[0.22em] uppercase text-taupe">
+              {group.heading}
+            </span>
+            <ul className="mt-2">
+              {items.map((it) => {
+                const active =
+                  it.href === "/admin"
+                    ? pathname === "/admin"
+                    : pathname?.startsWith(it.href);
+                return (
+                  <li key={it.href}>
+                    <Link
+                      href={it.href}
+                      onClick={onItemClick}
+                      className={cn(
+                        "block rounded-sm px-3 py-2 text-sm transition-colors",
+                        active
+                          ? "bg-ink text-ivory"
+                          : "text-ink hover:bg-bone"
+                      )}
+                    >
+                      {it.label}
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        );
+      })}
+    </nav>
+  );
+}
+
+function Brand() {
+  return (
+    <div className="border-b border-ink/10 px-6 py-5">
+      <Link
+        href="/admin"
+        className="font-display block text-base tracking-[0.28em] whitespace-nowrap"
+      >
+        FIRMAN FURNITURE
+      </Link>
+      <span className="text-taupe mt-1 block text-[10px] tracking-[0.25em] uppercase">
+        Admin
+      </span>
+    </div>
+  );
+}
+
+export default function AdminSidebar({ mobileOpen = false, onMobileClose }) {
   const pathname = usePathname();
   const { role } = useAuth();
 
   return (
-    <aside className="hidden w-64 shrink-0 border-r border-ink/10 bg-ivory md:block">
-      <div className="border-b border-ink/10 px-6 py-5">
-        <Link
-          href="/admin"
-          className="font-display block text-base tracking-[0.28em] whitespace-nowrap"
-        >
-          FIRMAN FURNITURE
-        </Link>
-        <span className="text-taupe mt-1 block text-[10px] tracking-[0.25em] uppercase">
-          Admin
-        </span>
-      </div>
-      <nav className="px-3 py-5">
-        {NAV.map((group) => {
-          const items = group.items.filter((i) => i.roles.includes(role));
-          if (items.length === 0) return null;
-          return (
-            <div key={group.heading} className="mb-6">
-              <span className="px-3 text-[10px] tracking-[0.22em] uppercase text-taupe">
-                {group.heading}
-              </span>
-              <ul className="mt-2">
-                {items.map((it) => {
-                  const active =
-                    it.href === "/admin"
-                      ? pathname === "/admin"
-                      : pathname?.startsWith(it.href);
-                  return (
-                    <li key={it.href}>
-                      <Link
-                        href={it.href}
-                        className={cn(
-                          "block rounded-sm px-3 py-2 text-sm transition-colors",
-                          active
-                            ? "bg-ink text-ivory"
-                            : "text-ink hover:bg-bone"
-                        )}
-                      >
-                        {it.label}
-                      </Link>
-                    </li>
-                  );
-                })}
-              </ul>
+    <>
+      {/* Desktop persistent sidebar */}
+      <aside className="hidden w-64 shrink-0 border-r border-ink/10 bg-ivory md:block">
+        <Brand />
+        <NavBody role={role} pathname={pathname} />
+      </aside>
+
+      {/* Mobile drawer */}
+      {mobileOpen && (
+        <div className="fixed inset-0 z-50 md:hidden" role="dialog" aria-modal>
+          <div
+            className="absolute inset-0 bg-ink/60"
+            onClick={onMobileClose}
+          />
+          <div className="relative flex h-full w-72 max-w-[85vw] flex-col bg-ivory shadow-2xl">
+            <div className="flex items-center justify-between border-b border-ink/10 px-6 py-5">
+              <Link
+                href="/admin"
+                onClick={onMobileClose}
+                className="font-display text-base tracking-[0.28em] whitespace-nowrap"
+              >
+                FIRMAN FURNITURE
+              </Link>
+              <button
+                type="button"
+                onClick={onMobileClose}
+                aria-label="Close menu"
+                className="text-ink/60 hover:text-ink"
+              >
+                <X strokeWidth={1.25} className="h-5 w-5" />
+              </button>
             </div>
-          );
-        })}
-      </nav>
-    </aside>
+            <div className="flex-1 overflow-y-auto">
+              <NavBody
+                role={role}
+                pathname={pathname}
+                onItemClick={onMobileClose}
+              />
+            </div>
+          </div>
+        </div>
+      )}
+    </>
   );
 }

@@ -37,11 +37,14 @@ export default function FulfillmentPage() {
         </div>
       </Toolbar>
 
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-5">
+      <div className="-mx-4 flex gap-4 overflow-x-auto px-4 pb-2 md:mx-0 md:grid md:grid-cols-5 md:overflow-visible md:px-0">
         {COLUMNS.map((col) => {
           const items = orders.filter((o) => col.filter.includes(o.status));
           return (
-            <div key={col.key} className="bg-bone/40 p-3 min-h-[60vh]">
+            <div
+              key={col.key}
+              className="w-72 shrink-0 bg-bone/40 p-3 min-h-[60vh] md:w-auto"
+            >
               <div className="flex items-center justify-between px-2 py-2">
                 <span className="text-[10px] tracking-[0.2em] uppercase">
                   {col.label}

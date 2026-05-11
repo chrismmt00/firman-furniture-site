@@ -1,0 +1,59 @@
+[
+  {
+    "id": "c-1001",
+    "name": "Christian Genus",
+    "email": "christian@firman.demo",
+    "phone": "+1 415 555 0101",
+    "joined": "2025-09-14",
+    "orders": 3,
+    "ltv": 17850,
+    "status": "active",
+    "tier": "VIP",
+    "addresses": [
+      {
+        "id": "a-1",
+        "label": "Home",
+        "name": "Christian Genus",
+        "street": "127 West Loop Drive",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78703",
+        "country": "United States",
+        "isDefault": true
+      }
+    ]
+  },
+  {
+    "id": "c-1002",
+    "name": "Eleanor Wexford",
+    "email": "eleanor.wexford@example.com",
+    "phone": "+1 203 555 0142",
+    "joined": "2024-04-22",
+    "orders": 8,
+    "ltv": 42600,
+    "status": "VIP",
+    "tier": "VIP"
+  },
+  {
+    "id": "c-1003",
+    "name": "Marcus Penn",
+    "email": "marcus.penn@example.com",
+    "phone": "+1 212 555 0118",
+    "joined": "2025-11-30",
+    "orders": 1,
+    "ltv": 2900,
+    "status": "active",
+    "tier": "Standard"
+  },
+  {
+    "id": "c-1004",
+    "name": "Henry Doulton",
+    "email": "henry.doulton@example.com",
+    "phone": "+44 20 7555 0192",
+    "joined": "2023-08-11",
+    "orders": 12,
+    "ltv": 68400,
+    "status": "VIP",
+    "tier": "VIP"
+  }
+]

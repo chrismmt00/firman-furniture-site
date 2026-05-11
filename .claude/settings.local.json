@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx next *)",
+      "Bash(curl -o /dev/null -s -w \"Home: %{http_code}\\\\n\" http://localhost:3000)",
+      "Bash(curl -o /dev/null -s -w \"Shop: %{http_code}\\\\n\" http://localhost:3000/shop)",
+      "Bash(curl -o /dev/null -s -w \"Wexford PDP: %{http_code}\\\\n\" http://localhost:3000/products/wexford-sectional)",
+      "Bash(curl -o /dev/null -s -w \"Hero img: %{http_code}\\\\n\" \"https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=2000&q=80\")",
+      "Bash(curl -o /dev/null -s -w \"Cat banner: %{http_code}\\\\n\" \"https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80\")",
+      "Bash(curl -o /dev/null -s -w \"Shipping crew: %{http_code}\\\\n\" \"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80\")",
+      "Bash(curl -o /dev/null -s -w \"Shipping zones: %{http_code}\\\\n\" \"https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=2000&q=80\")",
+      "Bash(curl -o /dev/null -s -w \"World map img: %{http_code}\\\\n\" \"https://images.unsplash.com/photo-1519677100203-a0e668c92439?auto=format&fit=crop&w=2000&q=80\")"
+    ]
+  }
+}

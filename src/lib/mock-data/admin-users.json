@@ -1,0 +1,7 @@
+[
+  { "id": "u-1", "name": "Christian Genus", "email": "christian@firman.demo", "role": "super", "lastActive": "2026-05-08" },
+  { "id": "u-2", "name": "Marlena Vance", "email": "marlena@firman.demo", "role": "content", "lastActive": "2026-05-07" },
+  { "id": "u-3", "name": "Theo Park", "email": "theo@firman.demo", "role": "fulfillment", "lastActive": "2026-05-08" },
+  { "id": "u-4", "name": "Imani Reyes", "email": "imani@firman.demo", "role": "cs", "lastActive": "2026-05-08" },
+  { "id": "u-5", "name": "Jasper Quinn", "email": "jasper@firman.demo", "role": "fulfillment", "lastActive": "2026-05-06" }
+]

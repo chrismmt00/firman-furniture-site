@@ -1,0 +1,6 @@
+[
+  { "id": "T-2042", "subject": "Delivery rescheduling for ORD-2026-0142", "customerId": "c-1001", "status": "open", "assignee": "u-4", "openedAt": "2026-05-06", "messages": 3, "orderId": "ORD-2026-0142" },
+  { "id": "T-2041", "subject": "Wexford fabric care question", "customerId": "c-1002", "status": "open", "assignee": "u-4", "openedAt": "2026-05-05", "messages": 1 },
+  { "id": "T-2039", "subject": "Refund request — ORD-2026-0118", "customerId": "c-1004", "status": "pending", "assignee": "u-4", "openedAt": "2026-05-03", "messages": 5, "orderId": "ORD-2026-0118" },
+  { "id": "T-2031", "subject": "Trade pricing inquiry", "customerId": "c-1003", "status": "resolved", "assignee": "u-1", "openedAt": "2026-04-28", "messages": 2 }
+]

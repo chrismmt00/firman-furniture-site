@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "manhattan",
+    "name": "Manhattan",
+    "address": "412 East 60th Street, New York, NY 10022",
+    "phone": "+1 212 555 0140",
+    "hours": "Mon–Sat 10am–6pm, Sun 12pm–5pm",
+    "story": "Two floors above the Queensboro, our flagship since 1962.",
+    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
+    "slug": "greenwich",
+    "name": "Greenwich",
+    "address": "78 Greenwich Avenue, Greenwich, CT 06830",
+    "phone": "+1 203 555 0118",
+    "hours": "Mon–Sat 10am–6pm",
+    "story": "A converted carriage house on Greenwich Avenue.",
+    "image": "https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
+    "slug": "palm-beach",
+    "name": "Palm Beach",
+    "address": "240 Worth Avenue, Palm Beach, FL 33480",
+    "phone": "+1 561 555 0162",
+    "hours": "Mon–Sat 10am–5pm",
+    "story": "Coral pink stucco, courtyard fountain, since 1978.",
+    "image": "https://images.unsplash.com/photo-1597072689227-8882273e8f6a?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
+    "slug": "london",
+    "name": "London",
+    "address": "14 Mount Street, Mayfair, London W1K 2RA",
+    "phone": "+44 20 7555 0192",
+    "hours": "Mon–Sat 10am–6pm",
+    "story": "A Mount Street townhouse, our European headquarters.",
+    "image": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
+    "slug": "milan",
+    "name": "Milan",
+    "address": "Via della Spiga 28, 20121 Milano",
+    "phone": "+39 02 5555 0188",
+    "hours": "Lun–Sab 10–19",
+    "story": "Quadrilatero della Moda, a stone's throw from Montenapoleone.",
+    "image": "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
+    "slug": "tokyo",
+    "name": "Tokyo",
+    "address": "5-9-2 Roppongi, Minato-ku, Tokyo",
+    "phone": "+81 3 5555 0177",
+    "hours": "Daily 11am–8pm",
+    "story": "Our newest showroom, opened spring 2025.",
+    "image": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1600&q=80"
+  }
+]

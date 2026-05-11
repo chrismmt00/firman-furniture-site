@@ -1,0 +1,69 @@
+[
+  {
+    "slug": "five-rooms-wexford",
+    "title": "Five Rooms Styled with the Wexford",
+    "eyebrow": "Style",
+    "category": "Style",
+    "excerpt": "From a Cotswolds farmhouse to a Manhattan loft, how the Wexford lives in five very different homes.",
+    "author": "Eleanor Fairchild",
+    "readTime": "8 min read",
+    "publishedAt": "2026-04-12",
+    "relatedProducts": ["wexford-sectional", "hadley-lounge-chair"],
+    "image": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
+    "slug": "hand-tying-springs",
+    "title": "What Hand-Tied Springs Actually Mean",
+    "eyebrow": "Craft",
+    "category": "Craft",
+    "excerpt": "An afternoon in the upholstery atelier with master craftsman Henry Doulton.",
+    "author": "Marcus Penn",
+    "readTime": "6 min read",
+    "publishedAt": "2026-03-30",
+    "image": "https://images.unsplash.com/photo-1532372576444-dda954194ad0?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
+    "slug": "century-of-firman",
+    "title": "A Century of Firman",
+    "eyebrow": "Heritage",
+    "category": "Heritage",
+    "excerpt": "The 1924 ledger, a fire in '52, and the move to New Bedford.",
+    "author": "Eleanor Fairchild",
+    "readTime": "12 min read",
+    "publishedAt": "2026-03-15",
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
+    "slug": "leather-care",
+    "title": "Caring for Aniline Leather",
+    "eyebrow": "Care",
+    "category": "Care",
+    "excerpt": "Why patina is the goal — and how to encourage it.",
+    "author": "Henry Doulton",
+    "readTime": "5 min read",
+    "publishedAt": "2026-02-28",
+    "image": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
+    "slug": "library-of-clarendon",
+    "title": "The Library at Clarendon",
+    "eyebrow": "Style",
+    "category": "Style",
+    "excerpt": "Inside a private collection of 7,000 volumes.",
+    "author": "Marcus Penn",
+    "readTime": "10 min read",
+    "publishedAt": "2026-02-10",
+    "image": "https://images.unsplash.com/photo-1556020685-ae41abfc9365?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
+    "slug": "brass-foundry",
+    "title": "From Sand to Sconce",
+    "eyebrow": "Craft",
+    "category": "Craft",
+    "excerpt": "Three days at our New Bedford foundry.",
+    "author": "Eleanor Fairchild",
+    "readTime": "9 min read",
+    "publishedAt": "2026-01-22",
+    "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&w=1600&q=80"
+  }
+]

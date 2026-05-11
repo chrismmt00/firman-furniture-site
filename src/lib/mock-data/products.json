@@ -1,0 +1,295 @@
+[
+  {
+    "slug": "wexford-sectional",
+    "name": "Wexford Sectional",
+    "collection": "wexford-series",
+    "category": "living-room",
+    "subcategory": "sectionals",
+    "price": 8400,
+    "compareAt": null,
+    "stock": 6,
+    "status": "in-stock",
+    "rating": 4.7,
+    "reviews": 42,
+    "colors": ["Ivory", "Forest", "Oxblood"],
+    "dimensions": "112\"W × 38\"D × 32\"H",
+    "materials": ["Kiln-dried hardwood frame", "Belgian linen upholstery", "Goose-down cushions"],
+    "delivery": "white-glove",
+    "leadTime": "2–3 weeks",
+    "description": "Three generations of upholstery craftsmanship sit behind the Wexford. Hand-tied eight-way coils, kiln-dried hardwood, and Belgian linen tailored to a tenth of an inch.",
+    "tags": ["bestseller", "new"],
+    "createdAt": "2026-01-12",
+    "image": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1600&q=80"
+    ]
+  },
+  {
+    "slug": "hadley-lounge-chair",
+    "name": "Hadley Lounge Chair",
+    "collection": "wexford-series",
+    "category": "living-room",
+    "subcategory": "chairs",
+    "price": 2900,
+    "compareAt": 3400,
+    "stock": 12,
+    "status": "in-stock",
+    "rating": 4.8,
+    "reviews": 87,
+    "colors": ["Forest", "Oxblood", "Charcoal"],
+    "dimensions": "32\"W × 34\"D × 30\"H",
+    "materials": ["Solid walnut frame", "Saddle leather", "Brass nailhead trim"],
+    "delivery": "white-glove",
+    "leadTime": "1–2 weeks",
+    "description": "A reading chair with the proportions of a club. Saddle-leather upholstery softens with use; the walnut frame is solid through-and-through.",
+    "tags": ["bestseller", "sale"],
+    "image": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&w=1600&q=80"
+    ]
+  },
+  {
+    "slug": "ashford-coffee-table",
+    "name": "Ashford Coffee Table",
+    "category": "living-room",
+    "subcategory": "coffee-tables",
+    "price": 1850,
+    "stock": 4,
+    "status": "low-stock",
+    "rating": 4.6,
+    "reviews": 31,
+    "colors": ["Walnut", "Oak"],
+    "dimensions": "54\"W × 28\"D × 16\"H",
+    "materials": ["Solid walnut", "Brass hardware"],
+    "delivery": "white-glove",
+    "description": "Mortise-and-tenon construction, hand-rubbed oil finish.",
+    "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1600&q=80"
+    ]
+  },
+  {
+    "slug": "mayfair-dining-table",
+    "name": "Mayfair Dining Table",
+    "category": "dining",
+    "subcategory": "dining-tables",
+    "price": 6200,
+    "stock": 0,
+    "status": "sold-out",
+    "rating": 4.9,
+    "reviews": 56,
+    "colors": ["Walnut", "Oak"],
+    "dimensions": "84\"L × 42\"W × 30\"H",
+    "materials": ["Solid walnut", "Hand-rubbed oil"],
+    "delivery": "white-glove",
+    "description": "Seats eight comfortably. Trestle base in solid walnut.",
+    "tags": ["bestseller"],
+    "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1600&q=80"
+    ]
+  },
+  {
+    "slug": "windsor-dining-chair",
+    "name": "Windsor Dining Chair",
+    "category": "dining",
+    "subcategory": "dining-chairs",
+    "price": 950,
+    "stock": 24,
+    "status": "in-stock",
+    "rating": 4.7,
+    "reviews": 112,
+    "colors": ["Natural", "Ebonized"],
+    "dimensions": "20\"W × 22\"D × 38\"H",
+    "materials": ["Steam-bent ash", "Hand-caned seat"],
+    "delivery": "standard",
+    "description": "Steam-bent in our atelier. Hand-caned seat softens to your form.",
+    "image": "https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=1600&q=80"
+    ]
+  },
+  {
+    "slug": "kensington-bed",
+    "name": "Kensington Tufted Bed",
+    "category": "bedroom",
+    "subcategory": "beds",
+    "price": 5400,
+    "stock": 3,
+    "status": "low-stock",
+    "rating": 4.8,
+    "reviews": 67,
+    "colors": ["Ivory", "Charcoal", "Navy"],
+    "dimensions": "King: 80\"W × 84\"L × 56\"H",
+    "materials": ["Kiln-dried hardwood", "Belgian linen", "Hand-tufted"],
+    "delivery": "white-glove",
+    "tags": ["new"],
+    "description": "Hand-tufted headboard with brass nailhead. Sleigh footboard.",
+    "image": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1600&q=80"
+    ]
+  },
+  {
+    "slug": "kensington-dresser",
+    "name": "Kensington Dresser",
+    "category": "bedroom",
+    "subcategory": "dressers",
+    "price": 4200,
+    "stock": 5,
+    "status": "in-stock",
+    "rating": 4.6,
+    "reviews": 28,
+    "colors": ["Walnut", "Oak"],
+    "dimensions": "72\"W × 22\"D × 36\"H",
+    "materials": ["Solid hardwood", "Brass pulls"],
+    "delivery": "white-glove",
+    "description": "Nine drawers on full-extension dovetail glides.",
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80"
+    ]
+  },
+  {
+    "slug": "fitzgerald-desk",
+    "name": "Fitzgerald Writing Desk",
+    "category": "office",
+    "subcategory": "desks",
+    "price": 3600,
+    "stock": 7,
+    "status": "in-stock",
+    "rating": 4.7,
+    "reviews": 19,
+    "colors": ["Walnut", "Mahogany"],
+    "dimensions": "60\"W × 30\"D × 30\"H",
+    "materials": ["Solid hardwood", "Tooled leather inlay", "Brass"],
+    "delivery": "standard",
+    "image": "https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&w=1600&q=80"
+    ]
+  },
+  {
+    "slug": "savile-bookcase",
+    "name": "Savile Library Bookcase",
+    "category": "office",
+    "subcategory": "bookcases",
+    "price": 7800,
+    "stock": 2,
+    "status": "low-stock",
+    "rating": 4.9,
+    "reviews": 14,
+    "colors": ["Walnut", "Oak"],
+    "dimensions": "84\"W × 18\"D × 96\"H",
+    "materials": ["Solid hardwood", "Brass library ladder hardware"],
+    "delivery": "white-glove",
+    "tags": ["new"],
+    "image": "https://images.unsplash.com/photo-1556020685-ae41abfc9365?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1556020685-ae41abfc9365?auto=format&fit=crop&w=1600&q=80"
+    ]
+  },
+  {
+    "slug": "harewood-chandelier",
+    "name": "Harewood Chandelier",
+    "category": "lighting",
+    "subcategory": "chandeliers",
+    "price": 3200,
+    "stock": 8,
+    "status": "in-stock",
+    "rating": 4.8,
+    "reviews": 22,
+    "colors": ["Antique Brass", "Bronze"],
+    "dimensions": "36\" diameter × 32\"H",
+    "materials": ["Solid brass", "Hand-blown glass"],
+    "delivery": "standard",
+    "image": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=1600&q=80"
+    ]
+  },
+  {
+    "slug": "ascot-floor-lamp",
+    "name": "Ascot Floor Lamp",
+    "category": "lighting",
+    "subcategory": "floor-lamps",
+    "price": 1450,
+    "stock": 0,
+    "status": "sold-out",
+    "rating": 4.7,
+    "reviews": 38,
+    "colors": ["Antique Brass"],
+    "dimensions": "22\" × 22\" × 64\"H",
+    "materials": ["Brass", "Linen shade"],
+    "delivery": "standard",
+    "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1600&q=80"
+    ]
+  },
+  {
+    "slug": "huntsman-rug",
+    "name": "Huntsman Hand-knotted Rug",
+    "category": "rugs",
+    "subcategory": "hand-knotted",
+    "price": 4900,
+    "stock": 4,
+    "status": "low-stock",
+    "rating": 4.9,
+    "reviews": 17,
+    "colors": ["Burgundy", "Forest"],
+    "dimensions": "9' × 12'",
+    "materials": ["Hand-knotted wool", "Natural dyes"],
+    "delivery": "standard",
+    "tags": ["bestseller"],
+    "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1600&q=80"
+    ]
+  },
+  {
+    "slug": "claremont-mirror",
+    "name": "Claremont Convex Mirror",
+    "category": "decor",
+    "subcategory": "mirrors",
+    "price": 1850,
+    "stock": 11,
+    "status": "in-stock",
+    "rating": 4.6,
+    "reviews": 24,
+    "colors": ["Antique Gilt"],
+    "dimensions": "42\" diameter",
+    "materials": ["Hand-gilt frame", "Convex glass"],
+    "delivery": "standard",
+    "image": "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1600&q=80"
+    ]
+  },
+  {
+    "slug": "regent-bar-cart",
+    "name": "Regent Bar Cart",
+    "category": "dining",
+    "subcategory": "bar-carts",
+    "price": 2100,
+    "stock": 6,
+    "status": "in-stock",
+    "rating": 4.8,
+    "reviews": 41,
+    "colors": ["Antique Brass", "Polished Nickel"],
+    "dimensions": "32\"W × 18\"D × 34\"H",
+    "materials": ["Brass", "Mirror tray"],
+    "delivery": "standard",
+    "image": "https://images.unsplash.com/photo-1565183997392-2f6f122e5912?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1565183997392-2f6f122e5912?auto=format&fit=crop&w=1600&q=80"
+    ]
+  }
+]

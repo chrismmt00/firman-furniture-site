@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ORD-2026-0142",
+    "customerId": "c-1001",
+    "customerName": "Christian Genus",
+    "placedAt": "2026-05-02",
+    "status": "processing",
+    "paymentStatus": "paid",
+    "deliveryMethod": "white-glove",
+    "deliveryWindow": "2026-05-22 9am–12pm",
+    "subtotal": 14200,
+    "tax": 1210,
+    "shipping": 0,
+    "total": 15410,
+    "items": [
+      { "slug": "wexford-sectional", "name": "Wexford Sectional", "color": "Ivory", "qty": 1, "price": 8400 },
+      { "slug": "hadley-lounge-chair", "name": "Hadley Lounge Chair", "color": "Forest", "qty": 1, "price": 2900 },
+      { "slug": "ashford-coffee-table", "name": "Ashford Coffee Table", "color": "Walnut", "qty": 1, "price": 1850 }
+    ]
+  },
+  {
+    "id": "ORD-2026-0138",
+    "customerId": "c-1002",
+    "customerName": "Eleanor Wexford",
+    "placedAt": "2026-04-28",
+    "status": "shipped",
+    "paymentStatus": "paid",
+    "deliveryMethod": "white-glove",
+    "deliveryWindow": "2026-05-15 1pm–4pm",
+    "subtotal": 5400,
+    "tax": 432,
+    "shipping": 0,
+    "total": 5832,
+    "items": [
+      { "slug": "kensington-bed", "name": "Kensington Tufted Bed", "color": "Charcoal", "qty": 1, "price": 5400 }
+    ]
+  },
+  {
+    "id": "ORD-2026-0131",
+    "customerId": "c-1004",
+    "customerName": "Henry Doulton",
+    "placedAt": "2026-04-19",
+    "status": "delivered",
+    "paymentStatus": "paid",
+    "deliveryMethod": "standard",
+    "subtotal": 950,
+    "tax": 76,
+    "shipping": 0,
+    "total": 1026,
+    "items": [
+      { "slug": "windsor-dining-chair", "name": "Windsor Dining Chair", "color": "Natural", "qty": 1, "price": 950 }
+    ]
+  },
+  {
+    "id": "ORD-2026-0125",
+    "customerId": "c-1003",
+    "customerName": "Marcus Penn",
+    "placedAt": "2026-04-10",
+    "status": "delivered",
+    "paymentStatus": "paid",
+    "deliveryMethod": "white-glove",
+    "subtotal": 2900,
+    "tax": 232,
+    "shipping": 0,
+    "total": 3132,
+    "items": [
+      { "slug": "hadley-lounge-chair", "name": "Hadley Lounge Chair", "color": "Oxblood", "qty": 1, "price": 2900 }
+    ]
+  },
+  {
+    "id": "ORD-2026-0118",
+    "customerId": "c-1004",
+    "customerName": "Henry Doulton",
+    "placedAt": "2026-04-02",
+    "status": "pending",
+    "paymentStatus": "authorized",
+    "deliveryMethod": "white-glove",
+    "subtotal": 7800,
+    "tax": 624,
+    "shipping": 0,
+    "total": 8424,
+    "items": [
+      { "slug": "savile-bookcase", "name": "Savile Library Bookcase", "color": "Walnut", "qty": 1, "price": 7800 }
+    ]
+  }
+]

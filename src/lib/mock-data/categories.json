@@ -1,0 +1,96 @@
+[
+  {
+    "slug": "living-room",
+    "name": "Living Room",
+    "tagline": "Sofas, sectionals, accent chairs",
+    "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1400&q=80",
+    "subcategories": [
+      { "slug": "sofas", "name": "Sofas" },
+      { "slug": "sectionals", "name": "Sectionals" },
+      { "slug": "chairs", "name": "Accent Chairs" },
+      { "slug": "coffee-tables", "name": "Coffee Tables" },
+      { "slug": "side-tables", "name": "Side Tables" }
+    ]
+  },
+  {
+    "slug": "dining",
+    "name": "Dining",
+    "tagline": "Tables, chairs, sideboards",
+    "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1400&q=80",
+    "subcategories": [
+      { "slug": "dining-tables", "name": "Dining Tables" },
+      { "slug": "dining-chairs", "name": "Dining Chairs" },
+      { "slug": "sideboards", "name": "Sideboards" },
+      { "slug": "bar-carts", "name": "Bar Carts" }
+    ]
+  },
+  {
+    "slug": "bedroom",
+    "name": "Bedroom",
+    "tagline": "Beds, dressers, nightstands",
+    "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1400&q=80",
+    "subcategories": [
+      { "slug": "beds", "name": "Beds" },
+      { "slug": "dressers", "name": "Dressers" },
+      { "slug": "nightstands", "name": "Nightstands" },
+      { "slug": "benches", "name": "Benches" }
+    ]
+  },
+  {
+    "slug": "office",
+    "name": "Office",
+    "tagline": "Desks, chairs, bookcases",
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1400&q=80",
+    "subcategories": [
+      { "slug": "desks", "name": "Desks" },
+      { "slug": "office-chairs", "name": "Office Chairs" },
+      { "slug": "bookcases", "name": "Bookcases" }
+    ]
+  },
+  {
+    "slug": "outdoor",
+    "name": "Outdoor",
+    "tagline": "Teak, wrought iron, weather-ready",
+    "image": "https://images.unsplash.com/photo-1581539250439-c96689b516dd?auto=format&fit=crop&w=1400&q=80",
+    "subcategories": [
+      { "slug": "outdoor-seating", "name": "Seating" },
+      { "slug": "outdoor-tables", "name": "Tables" },
+      { "slug": "umbrellas", "name": "Umbrellas" }
+    ]
+  },
+  {
+    "slug": "lighting",
+    "name": "Lighting",
+    "tagline": "Chandeliers, sconces, lamps",
+    "image": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=1400&q=80",
+    "subcategories": [
+      { "slug": "chandeliers", "name": "Chandeliers" },
+      { "slug": "table-lamps", "name": "Table Lamps" },
+      { "slug": "floor-lamps", "name": "Floor Lamps" },
+      { "slug": "sconces", "name": "Sconces" }
+    ]
+  },
+  {
+    "slug": "decor",
+    "name": "Decor",
+    "tagline": "Mirrors, vases, objet",
+    "image": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1400&q=80",
+    "subcategories": [
+      { "slug": "mirrors", "name": "Mirrors" },
+      { "slug": "vases", "name": "Vases" },
+      { "slug": "objet", "name": "Objet" },
+      { "slug": "art", "name": "Art" }
+    ]
+  },
+  {
+    "slug": "rugs",
+    "name": "Rugs",
+    "tagline": "Hand-knotted, vintage, modern",
+    "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1400&q=80",
+    "subcategories": [
+      { "slug": "hand-knotted", "name": "Hand-knotted" },
+      { "slug": "vintage", "name": "Vintage" },
+      { "slug": "flatweave", "name": "Flatweave" }
+    ]
+  }
+]

@@ -89,17 +89,17 @@ export default function Header({ tone = "auto" }) {
         <Link
           href="/"
           aria-label="Firman Furniture home"
-          className="font-display absolute left-1/2 -translate-x-1/2 whitespace-nowrap text-lg tracking-[0.3em] md:text-xl md:tracking-[0.32em]"
+          className="font-display absolute left-1/2 -translate-x-1/2 whitespace-nowrap text-sm tracking-[0.22em] sm:text-base sm:tracking-[0.28em] md:text-xl md:tracking-[0.32em]"
           onMouseEnter={() => setMegaOpen(false)}
         >
           FIRMAN FURNITURE
         </Link>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3 md:gap-4">
           <Link
             href="/search"
             aria-label="Search"
-            className="hover:text-brass-soft"
+            className="hidden hover:text-brass-soft md:inline-flex"
           >
             <Search strokeWidth={1.25} className="h-5 w-5" />
           </Link>
@@ -118,7 +118,7 @@ export default function Header({ tone = "auto" }) {
           <Link
             href={user ? "/account" : "/sign-in"}
             aria-label="Account"
-            className="hover:text-brass-soft"
+            className="hidden hover:text-brass-soft md:inline-flex"
           >
             <User strokeWidth={1.25} className="h-5 w-5" />
           </Link>
